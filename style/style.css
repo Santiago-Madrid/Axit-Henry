@@ -11,12 +11,19 @@
     background-position: center; 
     box-sizing: border-box;   
 }
-.contenedor1 span{
-    color: white;
-    font-size: 70px;
-    font-weight: 900;
+.texto-1 {
+    margin-left: 150px;
+    margin-top: 60px;
 }
-.texto-1{
+
+.texto-1 span {
+    font-weight: 900;
+    font-size: 55px;
+    color: white;
+    text-align: left;
+}
+
+.texto-2{
     color: white;
     width: 600px;
     text-align: left;
@@ -49,3 +56,502 @@
     margin-top: 3%;
     font-weight: 200;
 }
+
+.contenedor2{
+    display: flex;             
+    width: 100%;
+    height: 600px;
+    justify-content: center;   
+    align-items: center;       
+}
+
+.texto3 h1{
+    margin-top: 50px;                 
+    font-size: 40px;           
+    font-weight: 900;
+    text-align: center;        
+}
+.todas-imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 120px; 
+    width: 100%;
+    text-align: center;
+}
+.imagenes-contenedor{
+    margin: 25px;
+    width: 300px;
+}
+.imagenes-contenedor img{
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+.imagenes-contenedor h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.imagenes-contenedor p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+.contenedor3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.contenedor3 .texto4 {
+    max-width: 450px;
+}
+
+.contenedor3 h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.contenedor3 p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.computador {
+    width: 520px;
+    height: auto;
+}
+
+.diagonal{
+    background: linear-gradient(155deg, white 50%, #00ffad 50%);
+}
+.contenedor4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 0;
+}
+
+
+.contenedor4 .texto4 {
+    max-width: 450px;
+}
+
+.contenedor4 h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.contenedor4 p {
+    font-size: 18px;
+    color: #033;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.tablet {
+    width: 520px;
+    height: auto;
+}
+
+
+.boton {
+    background: #0d1b2a;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+
+
+
+.contenedor5 {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+}
+
+
+.titulo {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+
+.Todas-promos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.Promociones {
+    background: #ffffff;
+    padding: 40px 35px;
+    width: 350px;
+    text-align: center;
+}
+
+
+.Promociones-central {
+    background: #07132b;
+    color: white;
+    width: 350px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.precio {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.precio span {
+    font-size: 16px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    margin: 20px 0 30px 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+
+.boton5 {
+    padding: 14px 32px;
+    border-radius: 30px;
+    border: 2px solid #0f1424;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0f1424;
+    background: white;
+}
+
+.boton-verde {
+    background: #00f7b2;
+    border: none;
+    font-weight: 600;
+    padding: 14px 32px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+
+
+.logos{
+    height: 100px;
+    box-sizing: border-box; 
+    display: flex;
+    background-color: #555;
+    justify-content: space-around;
+}
+
+.logos img{
+    height: 70px;
+    width: 100px;
+    padding: 15px 0;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.contenedor6 {
+    display: flex;
+    background: url("../assets/images/contact-bk.jpg");
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+    color: white;
+}
+
+.texto6 {
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.texto6 h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.formulario {
+    width: 45%;
+    margin-right: 20px;
+}
+.formulario label{
+    color: #00f7b2;
+}
+
+.formulario1 {
+    display: flex;
+    gap: 20px;
+}
+
+.formulario2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario2 input,
+.formulario2 textarea {
+    background: transparent;
+    border: 2px solid #00ffc8;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.formulario3 textarea {
+    height: 220px;
+    background: transparent;
+    border: 2px solid #00ffc8;
+    width: 680px;
+    resize: none;
+}
+
+.boton6 {
+    width: 100%;
+    margin-top: 60px;
+    padding: 14px;
+    background: #00ffc8;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+ 
+
+.Pie{
+    background: #0f1424;
+    color: white;
+    height: 30px;
+    padding: 40px 30px;
+}
+
+
+
+
+
+@media (max-width:1290px){
+    .contenedor1-2 h3{
+        margin-left: 750px;
+    }
+    
+    .todas-imagenes{
+        gap: 60px;
+    }
+
+    .computador,
+    .tablet{
+        width: 420px;
+    }
+
+    .Todas-promos{
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:920px){
+
+    .contenedor1-2 h3{
+        margin-left: 450px;
+    }
+
+    .texto-1{
+        margin-left: 60px;
+    }
+
+    .texto-2{
+        margin-left: 60px;
+        width: 450px;
+    }
+
+    .todas-imagenes{
+        flex-wrap: wrap;
+    }
+
+    .contenedor3,
+    .contenedor4{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .computador,
+    .tablet{
+        width: 40%;
+    }
+
+    .Todas-promos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Promociones,
+    .Promociones-central{
+        width: 80%;
+    }
+
+    .logos img{
+        width: 80px;
+        height: 50px;
+    }
+
+    .contenedor6{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .texto6,
+    .formulario{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:768px){
+
+    .contenedor1-2{
+        justify-content: space-between;
+        margin:0 20px;
+    }
+
+    .contenedor1-2 img{
+        margin-left: 20px;
+    }
+
+    .contenedor1-2 h3{
+        margin-left: 10px;
+    }
+
+    .texto-1 span{
+        font-size: 45px;
+    }
+
+    .texto-2{
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .boton-1{
+        margin-left: 60px;
+    }
+
+    .imagenes-contenedor img{
+        width: 100px;
+        height: 100px;
+    }
+    .todas-imagenes{
+        gap: 50px;
+    }
+    .Promociones,
+    .Promociones-central{
+        width: 90%;
+    }
+
+    .logos{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logos img{
+        width: 70px;
+        height: 40px;
+    }
+}
+
+@media (max-width:480px){
+
+    h1, .titulo{
+        font-size: 28px;
+    }
+
+    .texto-1 span{
+        font-size: 32px;
+    }
+
+    .texto-2{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .boton-1{
+        width: 90px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .imagenes-contenedor{
+        width: 90%;
+    }
+    
+    .texto4{
+        width: 60%;
+    }
+    .computador,
+    .tablet{
+        width: 70%;
+    }
+
+    .precio{
+        font-size: 40px;
+    }
+    .texto6{
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .formulario2 input,
+    .formulario2 textarea{
+        font-size: 14px;
+    }
+    .Promociones{
+        padding: 40px 0;
+    }
+
+    .boton6{
+        font-size: 16px;
+    }
+
+    .Pie p{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
